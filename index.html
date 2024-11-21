@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Snowboarding</title>
+		<link rel="icon" href="./img/snowboard.png" />
+		<!-- the content here will only show in the tab and in the metadata about the page -->
+
+		<!-- uncomment this block of code so that you can add at least two CSS declarations  
+    <style>
+        body {}
+        h1   {}
+        p    {}
+        .important {} <- this will require you to declare a class="important" in one of your HTML elements
+        #interesting {} <- this will require you to declare a id="interesting" in one of your HTML elements
+    </style>
+    -->
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link href="reset.css" rel="stylesheet" type="text/css" />
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<!-- Part 1: Navbar Starter Code -->
+
+		<div class="navbar">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#data">Data</a></li>
+				<li>
+					<button id="theme-button" class="theme-toggle">
+						Toggle Dark Mode
+					</button>
+				</li>
+			</ul>
+		</div>
+
+		<!--- Headings --->
+		<div class="header revealable">
+			<h1>Snowboarding</h1>
+			<h3>Get ready to have some fun</h3>
+			<div class="header-buttons">
+				<button type="button" class="header-button">Resorts</button>
+				<button type="button" class="header-button">Gear</button>
+			</div>
+		</div>
+
+		<!--- About --->
+		<section class="about revealable">
+			<h2>Snowboarding: Embrace the Thrill of Winter</h2>
+			<div class="about-content">
+				<p class="about-intro">
+					Snowboarding combines the adrenaline of extreme sports with the
+					serenity of nature. It’s more than a hobby; it’s a lifestyle that lets
+					you conquer snowy slopes and experience the joy of gliding through
+					pristine winter landscapes.
+				</p>
+				<p class="about-details">
+					Whether you’re a beginner learning the basics or an expert carving
+					challenging terrain, snowboarding brings excitement, challenge, and
+					connection to the outdoors.
+				</p>
+				<p class="about-call-to-action">
+					Our website is here to inspire, educate, and guide you—helping you
+					gear up, find the best resorts, and make the most of every
+					snowboarding adventure. Let’s hit the slopes together!
+				</p>
+			</div>
+		</section>
+
+		<!--- Data --->
+		<section class="revealable" id="data-section">
+			<h3>Data About My Topic</h3>
+
+			<!-- Image Section -->
+			<div class="image-container">
+				<img
+					src="./img/nysnow.png"
+					alt="Chart or illustration related to topic"
+				/>
+			</div>
+
+			<!-- Data Caption -->
+			<h4>
+				Add some charts and captions that illustrate my topic and why it is a
+				problem
+			</h4>
+
+			<!-- Data List with Styled Items -->
+			<div class="data-list">
+				<ul>
+					<li><span class="percentage-range">Less than 15%</span></li>
+					<li><span class="percentage-range">15% - 25%</span></li>
+					<li><span class="percentage-range">25% - 35%</span></li>
+					<li><span class="percentage-range">35% - 45%</span></li>
+					<li><span class="percentage-range">Greater than 45%</span></li>
+				</ul>
+			</div>
+		</section>
+		<!--- Impact --->
+		<section class="revealable" id="mountain-section">
+			<h2><i class="fas fa-mountain"></i> Exploring the Majestic Mountain</h2>
+
+			<!-- Mountain Image and Information -->
+			<div class="image-container">
+				<img
+					src="./img/mountain.avif"
+					alt="A beautiful snowy mountain"
+					class="mountain"
+				/>
+			</div>
+			<h3>The Majestic Snow-Capped Peak</h3>
+			<p>
+				The mountain is one of nature’s most impressive features, towering over
+				the surrounding landscape. Its snow-covered peaks create a stunning
+				contrast against the clear blue sky, offering both a breathtaking sight
+				and a thrilling experience for adventurers. The snow serves as a perfect
+				base for various winter sports like skiing and snowboarding.
+			</p>
+
+			<!-- Snowboard Image and Information -->
+			<div class="image-container">
+				<img
+					src="./img/snowboard.avif"
+					alt="Snowboarder carving down the mountain"
+					class="snowboard"
+				/>
+			</div>
+			<h3>Snowboarding: The Thrill of Speed and Snow</h3>
+			<p>
+				Snowboarding has become one of the most popular winter sports,
+				attracting enthusiasts from all over the world. Riders carve through
+				fresh snow, performing jumps and tricks on the mountain’s slopes.
+				Whether you're a beginner or an expert, the thrill of gliding down the
+				snow-covered mountainside is unmatched.
+			</p>
+
+			<!-- Effects on the Environment Image and Information -->
+			<div class="image-container">
+				<img
+					src="./img/snowForest.avif"
+					alt="Environmental impact of mountain tourism"
+				/>
+			</div>
+			<h3>Where Else Can This Problem Have Lasting Effects?</h3>
+			<p>
+				The environmental impacts of tourism and extreme sports on mountains are
+				far-reaching. Overcrowding, litter, and the disruption of fragile
+				ecosystems can be seen in mountain ranges all around the world. The
+				degradation of these natural wonders threatens biodiversity and the
+				delicate balance of alpine environments. It’s crucial that we adopt
+				sustainable practices to preserve these majestic landscapes for future
+				generations.
+			</p>
+		</section>
+
+		<!-- Recent News Section -->
+		<section class="revealable" id="news-section">
+			<h2>Recent News</h2>
+			<p>
+				Stay up-to-date with the latest in the world of snowboarding. Here's
+				some of the most recent articles that dive into the history and
+				evolution of this thrilling sport.
+			</p>
+
+			<div class="news-article">
+				<a
+					href="https://www.smithsonianmag.com/innovation/brief-history-snowboarding-180979233/"
+					target="_blank"
+				>
+					<article>
+						<h3>History of Snowboarding</h3>
+						<p>
+							A brief summary of how snowboarding started and evolved into the
+							sport we know today. From its early beginnings to the rise of
+							professional competitions, discover the roots of snowboarding.
+						</p>
+					</article>
+				</a>
+			</div>
+		</section>
+
+		<!-- Petition Section -->
+		<section class="petition revealable" id="petition">
+			<h2>Sign Our Petition 📢</h2>
+			<div class="petition-container">
+				<p class="petition-para">
+					Snowboarding is an exciting sport that brings adventure and fun to the
+					snow-covered mountains. Join us in advocating for more access to
+					snowboarding areas and a sustainable future for winter sports.
+				</p>
+
+				<!-- List of Signatures -->
+				<div class="signatures">
+					<p>🖊️ DJ from Brooklyn supports this.</p>
+					<p>🖊️ Amy from Queens supports this.</p>
+					<p>🖊️ Teresa from Harlem supports this.</p>
+				</div>
+			</div>
+
+			<!-- Sign Petition Form -->
+			<div class="petition-form-container">
+				<form id="sign-petition" title="sign-petition">
+					<label for="Name">Name</label>
+					<input type="text" name="Name" id="Name" required />
+
+					<label for="HomeTown">Hometown</label>
+					<input type="text" name="HomeTown" id="HomeTown" required />
+
+					<label for="Email">Email</label>
+					<input type="email" name="Email" id="Email" required />
+				</form>
+
+				<!-- Sign Now Button -->
+				<button id="sign-now-button">Sign Now</button>
+			</div>
+		</section>
+
+		<!-- Modal -->
+		<div id="thanks-modal" class="modal">
+			<!-- Modal content -->
+			<div class="modal-content">
+				<div id="modal-text-container">
+					<!-- text here -->
+					<!-- button here (stretch feature) -->
+				</div>
+				<!-- image here-->
+				<img class="snow-town" src="./img/snowTown.avif" alt="snow town" />
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="footer-content">
+				<p>&copy; 2024 Snowboarding Enthusiasts. All rights reserved.</p>
+				<div class="footer-links">
+					<a href="#about">About Us</a>
+					<a href="#contact">Contact</a>
+					<a href="#privacy">Privacy Policy</a>
+				</div>
+			</div>
+		</footer>
+
+		<script src="index.js"></script>
+	</body>
+</html>
